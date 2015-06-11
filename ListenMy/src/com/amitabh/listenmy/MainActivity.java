@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements OnClickListener,
 	}
 
 	private void setAllListener() {
-
+		int i = 0;
 		next.setOnClickListener(this);
 		previous.setOnClickListener(this);
 		playPause.setOnCheckedChangeListener(this);
